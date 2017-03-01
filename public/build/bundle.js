@@ -11242,6 +11242,10 @@ exports.default = function () {
 "use strict";
 
 
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
 var _superagent = __webpack_require__(234);
 
 var _superagent2 = _interopRequireDefault(_superagent);
@@ -11252,7 +11256,7 @@ var _bluebird2 = _interopRequireDefault(_bluebird);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-module.exports = {
+exports.default = {
 
 	get: function get(endpoint, params) {
 		return new _bluebird2.default(function (resolve, reject) {

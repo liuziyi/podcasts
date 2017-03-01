@@ -1,7 +1,7 @@
 import superagent from 'superagent'
 import Promise from 'bluebird'
 
-module.exports = {
+export default {
 
 	get: (endpoint, params) => {
 		return new Promise((resolve, reject) => {
